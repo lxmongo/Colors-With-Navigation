@@ -9,8 +9,7 @@
 import UIKit
 
 class ColorsViewController: UIViewController, UITableViewDataSource,UITabBarDelegate {
-    
-    //var colors = ["red", "orange", "yello", "green", "blue", "pruple", "brown"]
+   
     var colors = [Color(name: "red", uiColor: UIColor.red),
                   Color(name: "orange", uiColor: UIColor.orange),
                   Color(name: "yellow", uiColor: UIColor.yellow),
